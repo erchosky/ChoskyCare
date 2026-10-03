@@ -1,0 +1,160 @@
+/* Navegación */
+"nav.dashboard" = "Resumen";
+"nav.storage" = "Almacenamiento";
+"nav.large_files" = "Archivos grandes";
+"nav.downloads" = "Descargas";
+"nav.software" = "Software Care";
+"nav.safe_cleanup" = "Limpieza segura";
+"menu.scan" = "Análisis";
+"privacy.local" = "100 % local";
+"privacy.detail" = "Sin cuenta, sin nube y sin telemetría.";
+
+/* Resumen */
+"dashboard.title" = "Tu Mac, sin humo";
+"dashboard.subtitle" = "Entiende qué ocupa espacio y decide qué merece irse.";
+"dashboard.storage" = "Espacio analizado";
+"dashboard.large_files" = "Archivos grandes";
+"dashboard.apps" = "Aplicaciones";
+"dashboard.safe_candidates" = "Limpieza revisable";
+"dashboard.not_scanned" = "Todavía sin analizar";
+"dashboard.over_threshold" = "Archivos de %@ o más";
+"dashboard.largest_app" = "La más grande: %1$@ · %2$@";
+"dashboard.last_scan" = "Último análisis: %1$@ · %2$@";
+"dashboard.promise" = "Tú decides. Siempre.";
+"dashboard.promise_detail" = "ChoskyCare no borra nada automáticamente. Cada elemento se explica y se envía a la Papelera, para que puedas recuperarlo.";
+
+/* Acciones */
+"action.scan_home" = "Analizar mi carpeta";
+"action.scan_software" = "Analizar software";
+"action.scan_cleanup" = "Analizar limpieza";
+"action.scan_this_folder" = "Analizar esta carpeta";
+"action.cancel" = "Cancelar";
+"action.cancel_scan" = "Cancelar análisis";
+"action.choose_folder" = "Elegir carpeta…";
+"action.reveal_finder" = "Mostrar en Finder";
+"action.quick_look" = "Vista rápida";
+"action.dismiss" = "Cerrar";
+"action.more" = "Más acciones";
+
+/* Análisis */
+"scan.running" = "Analizando";
+"scan.running_in" = "Analizando «%@»";
+"scan.preparing" = "Preparando el análisis…";
+"error.scan_cancelled" = "Análisis cancelado.";
+
+/* Almacenamiento */
+"storage.title" = "Storage Care";
+"storage.subtitle" = "Descubre qué ocupa espacio antes de tocar nada.";
+"storage.scanned" = "Analizado";
+"storage.files" = "Archivos";
+"storage.file" = "Archivo";
+"storage.inaccessible" = "Rutas sin acceso";
+"storage.inaccessible_help" = "Elementos que macOS no ha dejado leer. Concede Acceso total al disco en Ajustes del Sistema para incluirlos.";
+"storage.top_folders" = "Elementos principales";
+"storage.parent" = "Carpeta superior";
+"storage.parent_help" = "Analiza la carpeta que contiene esta.";
+"storage.scanned_at" = "Analizado %@";
+"storage.empty_title" = "Aún no hay un mapa del disco";
+"storage.empty_detail" = "Analiza tu carpeta de usuario o elige una carpeta concreta.";
+"treemap.empty" = "Nada que mostrar";
+"treemap.accessibility" = "Mapa de almacenamiento";
+
+/* Archivos grandes */
+"large.title" = "Archivos grandes";
+"large.subtitle" = "Archivos y paquetes de %@ o más, de mayor a menor.";
+"large.empty_title" = "No hay resultados";
+"large.empty_detail" = "Realiza un análisis para encontrar archivos de %@ o más.";
+
+/* Descargas */
+"downloads.title" = "Descargas olvidadas";
+"downloads.subtitle" = "Elementos grandes que llegaron a Descargas hace al menos seis meses.";
+"downloads.empty_title" = "Nada pendiente";
+"downloads.empty_detail" = "Analiza tu carpeta de usuario para revisar Descargas antiguas.";
+
+/* Software */
+"software.title" = "Software Care";
+"software.subtitle" = "Aplicaciones, tamaño real y restos relacionados. Sin adivinar.";
+"software.scanning" = "Midiendo aplicaciones…";
+"software.empty_title" = "Aplicaciones sin analizar";
+"software.empty_detail" = "Analiza el software instalado para conocer su tamaño y revisar posibles restos.";
+"software.search" = "Buscar aplicaciones";
+"software.select" = "Selecciona una aplicación";
+"software.bundle_id" = "Identificador";
+"software.location" = "Ubicación";
+"software.related" = "Elementos relacionados";
+"software.related_summary" = "%1$lld · %2$@";
+"software.related_explanation" = "Estos elementos coinciden con el identificador de la aplicación. Desmarca lo que quieras conservar: pueden contener ajustes o documentos.";
+"software.other_copies" = "Hay otra copia de esta aplicación instalada. Comparten ajustes y datos, así que solo se moverá la aplicación.";
+"software.no_related" = "No se han encontrado restos de esta aplicación.";
+"software.stale_help" = "No se ha abierto en los últimos seis meses.";
+"software.uninstall" = "Desinstalar…";
+"software.uninstall_title" = "¿Enviar «%@» a la Papelera?";
+"software.uninstall_detail" = "Se enviarán hasta %@ a la Papelera. Podrás recuperarlo desde allí.";
+"software.not_removable" = "macOS no permite mover esta aplicación. Puede formar parte del sistema o requerir permisos de administrador.";
+"software.error.running" = "«%@» está abierta. Ciérrala antes de desinstalarla.";
+
+/* Limpieza segura */
+"cleanup.title" = "Limpieza segura";
+"cleanup.subtitle" = "Categorías conocidas, explicadas y revisables antes de borrar.";
+"cleanup.scanning" = "Midiendo cachés y registros…";
+"cleanup.empty_title" = "Nada analizado";
+"cleanup.empty_detail" = "Analiza para calcular cachés, registros y datos de desarrollo.";
+"cleanup.review_and_trash" = "Revisar y enviar a la Papelera…";
+"cleanup.confirm_title" = "Confirmar limpieza";
+"cleanup.confirm_detail_size" = "Elementos: %1$lld · %2$@. Se enviarán a la Papelera, desde donde aún podrás recuperarlos.";
+"cleanup.confirm_candidates" = "El contenido de %1$@ (%2$@) se enviará a la Papelera. Las apps abiertas pueden volver a crear algunos archivos al momento.";
+"cleanup.move_to_trash" = "Enviar a la Papelera";
+"cleanup.recreated" = "Se vuelve a crear automáticamente cuando hace falta.";
+"cleanup.not_recreated" = "No se vuelve a crear automáticamente: revísalo antes de eliminarlo.";
+"cleanup.nothing_to_move" = "No había nada que mover.";
+"cleanup.error.protected" = "Ubicación protegida, omitida por seguridad.";
+"cleanup.result.success" = "Enviados a la Papelera: %1$lld · %2$@ liberados.";
+"cleanup.result.partial" = "Enviados a la Papelera: %1$lld · %2$@ liberados. No se pudieron mover: %3$lld.";
+"risk.low" = "Riesgo bajo";
+"risk.review" = "Revisar";
+"risk.high" = "Riesgo alto";
+"risk.info" = "Solo información";
+
+/* Reglas de limpieza */
+"rule.user_caches.title" = "Cachés de usuario";
+"rule.user_caches.detail" = "Las aplicaciones suelen volver a crear sus archivos de caché.";
+"rule.user_logs.title" = "Registros de usuario";
+"rule.user_logs.detail" = "Los registros de diagnóstico antiguos normalmente se pueden eliminar tras revisarlos.";
+"rule.xcode_derived_data.title" = "DerivedData de Xcode";
+"rule.xcode_derived_data.detail" = "Productos de compilación e índices que Xcode vuelve a generar.";
+"rule.simulator_caches.title" = "Cachés del Simulador";
+"rule.simulator_caches.detail" = "Cachés de dyld y de runtimes que el Simulador de iOS reconstruye.";
+"rule.xcode_archives.title" = "Archivos de Xcode";
+"rule.xcode_archives.detail" = "Compilaciones archivadas. Conserva las versiones que necesites para simbolicar o distribuir.";
+"rule.ios_device_support.title" = "iOS DeviceSupport";
+"rule.ios_device_support.detail" = "Archivos de soporte que Xcode descarga para cada versión de iOS conectada.";
+"rule.homebrew_cache.title" = "Caché de Homebrew";
+"rule.homebrew_cache.detail" = "Archivos descargados de fórmulas y casks que Homebrew puede volver a obtener.";
+"rule.npm_cache.title" = "Caché de npm";
+"rule.npm_cache.detail" = "Paquetes que npm puede volver a descargar.";
+"rule.trash.title" = "Papelera";
+"rule.trash.detail" = "Elementos que ya están en tu Papelera. Vacíala desde Finder cuando estés seguro.";
+
+/* Tablas */
+"table.name" = "Nombre";
+"table.size" = "Tamaño";
+"table.modified" = "Modificado";
+"table.added" = "Añadido";
+"table.app" = "Aplicación";
+"table.version" = "Versión";
+"table.last_used" = "Última apertura";
+
+/* Ajustes */
+"settings.safety" = "Seguridad";
+"settings.explanations" = "Mostrar explicaciones de seguridad";
+"settings.explanations_detail" = "Mantiene visibles los motivos y riesgos antes de limpiar.";
+"settings.scanning" = "Análisis";
+"settings.large_threshold" = "Umbral de archivo grande";
+"settings.include_hidden" = "Incluir archivos ocultos y Biblioteca";
+"settings.threshold_note" = "Se aplica en el siguiente análisis.";
+"settings.privacy" = "Privacidad";
+"settings.local_only" = "Procesamiento local";
+"settings.no_telemetry" = "Sin telemetría";
+"settings.trash_first" = "Papelera antes que borrado permanente";
+"settings.open_full_disk_access" = "Abrir ajustes de Acceso total al disco…";
+"settings.full_disk_access_detail" = "Sin Acceso total al disco, macOS oculta algunas carpetas (Mail, Safari, datos de otras apps) y aparecen como rutas sin acceso.";

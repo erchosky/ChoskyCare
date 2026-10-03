@@ -1,0 +1,160 @@
+/* Navigation */
+"nav.dashboard" = "Overview";
+"nav.storage" = "Storage";
+"nav.large_files" = "Large Files";
+"nav.downloads" = "Downloads";
+"nav.software" = "Software Care";
+"nav.safe_cleanup" = "Safe Cleanup";
+"menu.scan" = "Scan";
+"privacy.local" = "100% local";
+"privacy.detail" = "No account, no cloud, no telemetry.";
+
+/* Overview */
+"dashboard.title" = "Your Mac, no nonsense";
+"dashboard.subtitle" = "Understand what takes space and decide what deserves to go.";
+"dashboard.storage" = "Scanned storage";
+"dashboard.large_files" = "Large files";
+"dashboard.apps" = "Applications";
+"dashboard.safe_candidates" = "Reviewable cleanup";
+"dashboard.not_scanned" = "Not scanned yet";
+"dashboard.over_threshold" = "Files of %@ or more";
+"dashboard.largest_app" = "Largest: %1$@ · %2$@";
+"dashboard.last_scan" = "Last storage scan: %1$@ · %2$@";
+"dashboard.promise" = "You decide. Always.";
+"dashboard.promise_detail" = "ChoskyCare never deletes anything automatically. Every item is explained and moved to the Trash, so you can still recover it.";
+
+/* Actions */
+"action.scan_home" = "Scan my home";
+"action.scan_software" = "Scan software";
+"action.scan_cleanup" = "Scan cleanup";
+"action.scan_this_folder" = "Scan this folder";
+"action.cancel" = "Cancel";
+"action.cancel_scan" = "Cancel scan";
+"action.choose_folder" = "Choose folder…";
+"action.reveal_finder" = "Reveal in Finder";
+"action.quick_look" = "Quick Look";
+"action.dismiss" = "Dismiss";
+"action.more" = "More actions";
+
+/* Scanning */
+"scan.running" = "Scanning";
+"scan.running_in" = "Scanning “%@”";
+"scan.preparing" = "Preparing scan…";
+"error.scan_cancelled" = "Scan cancelled.";
+
+/* Storage */
+"storage.title" = "Storage Care";
+"storage.subtitle" = "See what takes space before touching anything.";
+"storage.scanned" = "Scanned";
+"storage.files" = "Files";
+"storage.file" = "File";
+"storage.inaccessible" = "Inaccessible paths";
+"storage.inaccessible_help" = "Items macOS did not let ChoskyCare read. Grant Full Disk Access in System Settings to include them.";
+"storage.top_folders" = "Top items";
+"storage.parent" = "Parent folder";
+"storage.parent_help" = "Scan the folder that contains this one.";
+"storage.scanned_at" = "Scanned %@";
+"storage.empty_title" = "No disk map yet";
+"storage.empty_detail" = "Scan your home folder or choose a specific folder.";
+"treemap.empty" = "Nothing to show";
+"treemap.accessibility" = "Storage map";
+
+/* Large files */
+"large.title" = "Large Files";
+"large.subtitle" = "Files and packages of %@ or more, largest first.";
+"large.empty_title" = "No results";
+"large.empty_detail" = "Run a scan to find files of %@ or more.";
+
+/* Downloads */
+"downloads.title" = "Forgotten Downloads";
+"downloads.subtitle" = "Large items that arrived in Downloads at least six months ago.";
+"downloads.empty_title" = "Nothing pending";
+"downloads.empty_detail" = "Scan your home folder to review old downloads.";
+
+/* Software */
+"software.title" = "Software Care";
+"software.subtitle" = "Applications, real size and related leftovers. No guessing.";
+"software.scanning" = "Measuring applications…";
+"software.empty_title" = "Applications not scanned";
+"software.empty_detail" = "Scan installed software to learn its size and review possible leftovers.";
+"software.search" = "Search applications";
+"software.select" = "Select an application";
+"software.bundle_id" = "Bundle ID";
+"software.location" = "Location";
+"software.related" = "Related items";
+"software.related_summary" = "%1$lld · %2$@";
+"software.related_explanation" = "These items match the application's bundle ID. Untick anything you want to keep: they may contain settings or documents.";
+"software.other_copies" = "Another copy of this application is installed. Its settings and data are shared, so only the application itself will be moved.";
+"software.no_related" = "No leftovers were found for this application.";
+"software.stale_help" = "Not opened in the last six months.";
+"software.uninstall" = "Uninstall…";
+"software.uninstall_title" = "Move “%@” to the Trash?";
+"software.uninstall_detail" = "Up to %@ will be moved to the Trash. You can restore it from there.";
+"software.not_removable" = "macOS does not allow moving this application. It may be part of the system or need administrator rights.";
+"software.error.running" = "“%@” is running. Quit it before uninstalling.";
+
+/* Safe cleanup */
+"cleanup.title" = "Safe Cleanup";
+"cleanup.subtitle" = "Known categories, explained and reviewable before deletion.";
+"cleanup.scanning" = "Measuring caches and logs…";
+"cleanup.empty_title" = "Nothing scanned";
+"cleanup.empty_detail" = "Scan to calculate caches, logs and development data.";
+"cleanup.review_and_trash" = "Review and move to Trash…";
+"cleanup.confirm_title" = "Confirm cleanup";
+"cleanup.confirm_detail_size" = "Items: %1$lld · %2$@. They will be moved to the Trash, where you can still restore them.";
+"cleanup.confirm_candidates" = "The contents of %1$@ (%2$@) will be moved to the Trash. Apps that are open may recreate some files immediately.";
+"cleanup.move_to_trash" = "Move to Trash";
+"cleanup.recreated" = "Recreated automatically when needed.";
+"cleanup.not_recreated" = "Not recreated automatically: review before removing.";
+"cleanup.nothing_to_move" = "There was nothing to move.";
+"cleanup.error.protected" = "Protected location, skipped for safety.";
+"cleanup.result.success" = "Moved to Trash: %1$lld · %2$@ freed.";
+"cleanup.result.partial" = "Moved to Trash: %1$lld · %2$@ freed. Could not move: %3$lld.";
+"risk.low" = "Low risk";
+"risk.review" = "Review";
+"risk.high" = "High risk";
+"risk.info" = "Info only";
+
+/* Cleanup rules */
+"rule.user_caches.title" = "User caches";
+"rule.user_caches.detail" = "Cache files are generally recreated by their applications.";
+"rule.user_logs.title" = "User logs";
+"rule.user_logs.detail" = "Old diagnostic logs can usually be removed after review.";
+"rule.xcode_derived_data.title" = "Xcode DerivedData";
+"rule.xcode_derived_data.detail" = "Build products and indexes that Xcode recreates.";
+"rule.simulator_caches.title" = "Simulator caches";
+"rule.simulator_caches.detail" = "Dyld and runtime caches that the iOS Simulator rebuilds.";
+"rule.xcode_archives.title" = "Xcode Archives";
+"rule.xcode_archives.detail" = "Archived app builds. Keep releases you may need for symbolication or distribution.";
+"rule.ios_device_support.title" = "iOS DeviceSupport";
+"rule.ios_device_support.detail" = "Support files Xcode downloads for each connected iOS version.";
+"rule.homebrew_cache.title" = "Homebrew cache";
+"rule.homebrew_cache.detail" = "Downloaded formula and cask archives that Homebrew can fetch again.";
+"rule.npm_cache.title" = "npm cache";
+"rule.npm_cache.detail" = "Packages npm can download again.";
+"rule.trash.title" = "Trash";
+"rule.trash.detail" = "Items already in your Trash. Empty it from Finder when you are sure.";
+
+/* Tables */
+"table.name" = "Name";
+"table.size" = "Size";
+"table.modified" = "Modified";
+"table.added" = "Added";
+"table.app" = "Application";
+"table.version" = "Version";
+"table.last_used" = "Last opened";
+
+/* Settings */
+"settings.safety" = "Safety";
+"settings.explanations" = "Show safety explanations";
+"settings.explanations_detail" = "Keeps reasons and risks visible before cleanup.";
+"settings.scanning" = "Scanning";
+"settings.large_threshold" = "Large file threshold";
+"settings.include_hidden" = "Include hidden files and Library";
+"settings.threshold_note" = "Applies to the next scan.";
+"settings.privacy" = "Privacy";
+"settings.local_only" = "Local processing";
+"settings.no_telemetry" = "No telemetry";
+"settings.trash_first" = "Trash before permanent deletion";
+"settings.open_full_disk_access" = "Open Full Disk Access settings…";
+"settings.full_disk_access_detail" = "Without Full Disk Access, macOS hides some folders (Mail, Safari, other apps' data) and they appear as inaccessible.";
