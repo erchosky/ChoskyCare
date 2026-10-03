@@ -1,11 +1,13 @@
 # ChoskyCare
 
-Una utilidad macOS nativa que une dos ideas:
+Para mirar qué narices está ocupando el disco del Mac y decidir qué merece ir a la Papelera. ChoskyCare junta dos partes en una app nativa:
 
-- **Storage Care**: entender qué ocupa espacio antes de borrar.
-- **Software Care**: revisar apps, cachés y restos de forma transparente.
+- **Storage Care**: ver qué ocupa espacio antes de borrar a lo loco.
+- **Software Care**: revisar apps, cachés y restos sabiendo qué estás tocando.
 
-## Filosofía
+Primero miras, luego decides. Que una carpeta pese mucho no significa que sobre.
+
+## La idea detrás de esto
 
 - Nada se borra automáticamente.
 - Todo se procesa localmente.
@@ -13,7 +15,7 @@ Una utilidad macOS nativa que une dos ideas:
 - Cada limpieza explica qué es, cuánto ocupa y qué puede ocurrir.
 - Sin “RAM booster”, porcentajes inventados, telemetría ni servidores.
 
-## Funciones incluidas
+## Qué trae ahora mismo
 
 ### Storage Care
 - Escaneo asíncrono de tu carpeta de usuario o de cualquier carpeta, con progreso y cancelación (⌘R / ⌘.).
@@ -37,7 +39,7 @@ Una utilidad macOS nativa que une dos ideas:
 - Se mueve el **contenido** de cada carpeta, nunca la carpeta en sí; las carpetas anidadas (Homebrew dentro de Caches) no se cuentan dos veces.
 - La Papelera se muestra solo como información: vaciarla es decisión tuya, desde Finder.
 
-## Compilar y ejecutar
+## Cómo arrancarlo
 
 ```bash
 swift run
@@ -49,7 +51,7 @@ Para generar una app `.app` firmada ad hoc en `dist/`:
 ./scripts/build-app.sh
 ```
 
-Tests:
+Pruebas:
 
 ```bash
 swift test
@@ -74,7 +76,7 @@ Requiere macOS 14 o posterior y Xcode con Swift 6.
 
 ## Estado
 
-Es una base funcional y ampliable. Antes de distribuirla públicamente hay que:
+La base funciona y se puede seguir ampliando. Para distribuirla públicamente todavía falta:
 - añadir icono y firma con Developer ID;
 - probar APFS, clones y hard links en hardware real;
 - revisar las reglas de limpieza;
