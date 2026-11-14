@@ -1,13 +1,14 @@
 # ChoskyCare
 
-¿Qué narices está ocupando tanto espacio en el Mac? **ChoskyCare** es una app nativa para verlo y decidir qué merece ir a la Papelera. Junta dos partes:
+Una aplicación nativa para revisar el espacio del Mac, explorar archivos grandes y gestionar aplicaciones, cachés y restos.
 
-- **Storage Care**: ver qué ocupa espacio antes de borrar a lo loco.
-- **Software Care**: revisar apps, cachés y restos sabiendo qué estás tocando.
+Storage Care muestra qué ocupa el disco; Software Care ayuda a revisar el software instalado. El análisis se realiza localmente y cada limpieza requiere una decisión del usuario.
 
-Primero miras, luego decides. Que una carpeta pese mucho no significa que sobre.
+[Criterios de funcionamiento](#criterios-de-funcionamiento) · [Funciones principales](#funciones-principales) · [Instalación y arranque](#instalación-y-arranque) · [Seguridad](#seguridad) · [Estado](#estado)
 
-## La idea detrás de esto
+---
+
+## Criterios de funcionamiento
 
 - Nada se borra automáticamente.
 - Todo se procesa localmente.
@@ -15,9 +16,9 @@ Primero miras, luego decides. Que una carpeta pese mucho no significa que sobre.
 - Cada limpieza explica qué es, cuánto ocupa y qué puede ocurrir.
 - Sin “RAM booster”, porcentajes inventados, telemetría ni servidores.
 
-## Qué trae ahora mismo
+## Funciones principales
 
-### Storage Care
+### Storage Care · Análisis de espacio
 - Escaneo asíncrono de tu carpeta de usuario o de cualquier carpeta, con progreso y cancelación (⌘R / ⌘.).
 - Incluye archivos ocultos y `~/Library` (configurable en Ajustes).
 - Los paquetes (apps, fototecas de Fotos, `.xcarchive`…) cuentan con su tamaño real y se tratan como un solo elemento.
@@ -26,7 +27,7 @@ Primero miras, luego decides. Que una carpeta pese mucho no significa que sobre.
 - Descargas olvidadas según la fecha en que llegaron a Descargas.
 - Envío seguro a la Papelera; las listas se actualizan al momento.
 
-### Software Care
+### Software Care · Gestión de aplicaciones
 - Inventario de `/Applications`, `~/Applications` y sus subcarpetas (p. ej. `Utilities`).
 - Tamaño real, versión, bundle ID y **fecha de última apertura** (las apps sin abrir en 6 meses se marcan).
 - Búsqueda y ordenación por cualquier columna.
@@ -39,7 +40,7 @@ Primero miras, luego decides. Que una carpeta pese mucho no significa que sobre.
 - Se mueve el **contenido** de cada carpeta, nunca la carpeta en sí; las carpetas anidadas (Homebrew dentro de Caches) no se cuentan dos veces.
 - La Papelera se muestra solo como información: vaciarla es decisión tuya, desde Finder.
 
-## Cómo arrancarlo
+## Instalación y arranque
 
 ```bash
 swift run
