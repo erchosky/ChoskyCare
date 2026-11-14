@@ -1,6 +1,6 @@
 # ChoskyCare
 
-Para mirar qué narices está ocupando el disco del Mac y decidir qué merece ir a la Papelera. ChoskyCare junta dos partes en una app nativa:
+¿Qué narices está ocupando tanto espacio en el Mac? **ChoskyCare** es una app nativa para verlo y decidir qué merece ir a la Papelera. Junta dos partes:
 
 - **Storage Care**: ver qué ocupa espacio antes de borrar a lo loco.
 - **Software Care**: revisar apps, cachés y restos sabiendo qué estás tocando.
